@@ -1,0 +1,18 @@
+{
+	"ref": "<a href='https://www.flaticon.com/free-icons/vision' title='vision icons'>Vision icons created by Pixel perfect - Flaticon</a>",
+	"name": "RegexFind",
+	"description": "A microsoft edge addon which allows to find text in a page using regular expression",
+	"version": "1.0",
+	"manifest_version": 3,
+	"host_permissions": ["https://*/*"],
+	"permissions": ["scripting", "activeTab", "storage"],
+	"icons": {
+      "16": "icons/find.png",
+      "32": "icons/find.png",
+      "48": "icons/find.png",
+      "128": "icons/find.png"
+	},
+	"action": {
+		"default_popup": "popup/popup.html"
+	}
+}
